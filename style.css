@@ -58,7 +58,7 @@ li, .section__title {
 }
 /* Heading */
 .section__title,
-label[for='new-task'] {
+.section__input[for='new-task'] {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -84,7 +84,7 @@ label[for='new-task'] {
 }
 
 /* New Task */
-label[for='new-task'] {
+.section__title {
     display: block;
     margin: 0 0 20px;
 }
@@ -109,7 +109,7 @@ label[for='new-task'] {
 .section__input-super[type="checkbox"] {
     margin: 0 10px;
 }
-li > label {
+.section__item > .section__input {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
@@ -128,7 +128,7 @@ li > label {
 }
 
 /* Completed */
-#completed-tasks label {
+#completed-tasks .section__input {
     text-decoration: line-through;
     color: #888;
 }
@@ -143,6 +143,3 @@ li > label {
     width:224px;
 }
 
-/* ul li.editMode label {
-    display:none;
-} */
