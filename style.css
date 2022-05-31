@@ -128,7 +128,7 @@ li, .section__title {
 }
 
 /* Completed */
-#completed-tasks .section__input {
+#completed-tasks .section__label {
     text-decoration: line-through;
     color: #888;
 }
